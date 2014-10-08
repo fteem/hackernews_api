@@ -1,5 +1,7 @@
 require "hackernews_api/version"
 
 module HackernewsApi
-  # Your code goes here...
+  API_URL = "https://hacker-news.firebaseio.com/"
+  API_VERSION = "v0"
+
 end

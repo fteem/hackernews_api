@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/126809.json?print=pretty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '445'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"by\" : \"pg\",\n  \"id\" : 126809,\n  \"kids\" : [ 126822,
+        126823, 126993, 126824, 126934, 127411, 126888, 127681, 126818, 126816, 126854,
+        127095, 126861, 127313, 127299, 126859, 126852, 126882, 126832, 127072, 127217,
+        126889, 127535, 126917, 126875 ],\n  \"parts\" : [ 126810, 126811, 126812
+        ],\n  \"score\" : 46,\n  \"text\" : \"\",\n  \"time\" : 1204403652,\n  \"title\"
+        : \"Poll: What would happen if News.YC had explicit support for polls?\",\n
+        \ \"type\" : \"poll\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 08 Oct 2014 23:40:23 GMT
+recorded_with: VCR 2.9.0

@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '434'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"by\" : \"dhouston\",\n  \"id\" : 8863,\n  \"kids\" : [ 8952,
+        9224, 8917, 8884, 8887, 8943, 8869, 8958, 9005, 9671, 8940, 9067, 8908, 9055,
+        8865, 8881, 8872, 8873, 8955, 10403, 8903, 8928, 9125, 8998, 8901, 8902, 8907,
+        8894, 8878, 8870, 8980, 8934, 8876 ],\n  \"score\" : 111,\n  \"time\" : 1175714200,\n
+        \ \"title\" : \"My YC app: Dropbox - Throw away your USB drive\",\n  \"type\"
+        : \"story\",\n  \"url\" : \"http://www.getdropbox.com/u/2/screencast.html\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 08 Oct 2014 23:40:24 GMT
+recorded_with: VCR 2.9.0

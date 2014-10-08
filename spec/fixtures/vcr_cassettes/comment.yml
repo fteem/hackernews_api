@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/2921983.json?print=pretty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '336'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"by\" : \"norvig\",\n  \"id\" : 2921983,\n  \"kids\" : [ 2922097,
+        2922429, 2924562, 2922709, 2922573, 2922140, 2922141 ],\n  \"parent\" : 2921506,\n
+        \ \"text\" : \"Aw shucks, guys ... you make me blush with your compliments.<p>Tell
+        you what, Ill make a deal: I'll keep writing if you keep reading. K?\",\n
+        \ \"time\" : 1314211127,\n  \"type\" : \"comment\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 08 Oct 2014 23:40:22 GMT
+recorded_with: VCR 2.9.0

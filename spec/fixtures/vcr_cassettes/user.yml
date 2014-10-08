@@ -29,6 +29,6 @@ http_interactions:
       string: ! "{\n  \"about\" : \"\",\n  \"created\" : 1350511163,\n  \"delay\"
         : 0,\n  \"id\" : \"fteem\",\n  \"karma\" : 69,\n  \"submitted\" : [ 7108294,
         6521410, 6465841, 6463575, 5256248, 5188029, 5181227 ]\n}\n"
-    http_version: 
-  recorded_at: Wed, 08 Oct 2014 23:43:35 GMT
+    http_version:
+  recorded_at: Wed, 08 Oct 2014 23:54:17 GMT
 recorded_with: VCR 2.9.0

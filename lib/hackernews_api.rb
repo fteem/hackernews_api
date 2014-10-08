@@ -10,4 +10,5 @@ module HackernewsApi
   autoload :Comment,  'hackernews_api/comment'
   autoload :Poll,  'hackernews_api/poll'
   autoload :PollOpt,  'hackernews_api/poll_opt'
+  autoload :User,  'hackernews_api/user'
 end

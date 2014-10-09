@@ -21,11 +21,14 @@ Or install it yourself as:
 Fetching users by id:
 ```User.fetch(123)```
 
+
 Fetching stories:
 ```Story.fetch(123)```
 
+
 Fetching comment:
 ```Comment.fetch(123)```
+
 
 Fetching poll:
 ```Poll.fetch(123)```

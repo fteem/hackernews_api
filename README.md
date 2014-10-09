@@ -19,19 +19,21 @@ Or install it yourself as:
 ## Usage
 
 Fetching users by id:
-```User.fetch(123)```
-
-
+```ruby
+User.fetch(123)
+```
 Fetching stories:
-```Story.fetch(123)```
-
-
+```ruby
+Story.fetch(123)
+```
 Fetching comment:
-```Comment.fetch(123)```
-
-
+```ruby
+Comment.fetch(123
+```
 Fetching poll:
-```Poll.fetch(123)```
+```ruby
+Poll.fetch(123)
+```
 
 All of the fetch actions return adequate entities based on the fetch.
 For example, ```Story.fetch(<some-id-here>)``` will return a ```Story``` object.
